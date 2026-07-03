@@ -1,0 +1,569 @@
+[
+  {
+    "city": "Adana",
+    "lat": 37,
+    "lon": 35.3213,
+    "slug": "adana",
+    "sourceUrl": "https://adana.eczaneleri.net/"
+  },
+  {
+    "city": "Adıyaman",
+    "lat": 37.7648,
+    "lon": 38.2786,
+    "slug": "adiyaman",
+    "sourceUrl": "https://adiyaman.eczaneleri.net/"
+  },
+  {
+    "city": "Afyonkarahisar",
+    "lat": 38.7569,
+    "lon": 30.5387,
+    "slug": "afyonkarahisar",
+    "sourceUrl": "https://afyonkarahisar.eczaneleri.net/"
+  },
+  {
+    "city": "Ağrı",
+    "lat": 39.7191,
+    "lon": 43.0503,
+    "slug": "agri",
+    "sourceUrl": "https://agri.eczaneleri.net/"
+  },
+  {
+    "city": "Amasya",
+    "lat": 40.6533,
+    "lon": 35.8331,
+    "slug": "amasya",
+    "sourceUrl": "https://amasya.eczaneleri.net/"
+  },
+  {
+    "city": "Ankara",
+    "lat": 39.9334,
+    "lon": 32.8597,
+    "slug": "ankara",
+    "sourceUrl": "https://ankara.eczaneleri.net/"
+  },
+  {
+    "city": "Antalya",
+    "lat": 36.8969,
+    "lon": 30.7133,
+    "slug": "antalya",
+    "sourceUrl": "https://antalya.eczaneleri.net/"
+  },
+  {
+    "city": "Artvin",
+    "lat": 41.1828,
+    "lon": 41.8183,
+    "slug": "artvin",
+    "sourceUrl": "https://artvin.eczaneleri.net/"
+  },
+  {
+    "city": "Aydın",
+    "lat": 37.856,
+    "lon": 27.8416,
+    "slug": "aydin",
+    "sourceUrl": "https://aydin.eczaneleri.net/"
+  },
+  {
+    "city": "Balıkesir",
+    "lat": 39.6484,
+    "lon": 27.8826,
+    "slug": "balikesir",
+    "sourceUrl": "https://balikesir.eczaneleri.net/"
+  },
+  {
+    "city": "Bilecik",
+    "lat": 40.1506,
+    "lon": 29.9793,
+    "slug": "bilecik",
+    "sourceUrl": "https://bilecik.eczaneleri.net/"
+  },
+  {
+    "city": "Bingöl",
+    "lat": 38.8847,
+    "lon": 40.4939,
+    "slug": "bingol",
+    "sourceUrl": "https://bingol.eczaneleri.net/"
+  },
+  {
+    "city": "Bitlis",
+    "lat": 38.3938,
+    "lon": 42.1232,
+    "slug": "bitlis",
+    "sourceUrl": "https://bitlis.eczaneleri.net/"
+  },
+  {
+    "city": "Bolu",
+    "lat": 40.576,
+    "lon": 31.5788,
+    "slug": "bolu",
+    "sourceUrl": "https://bolu.eczaneleri.net/"
+  },
+  {
+    "city": "Burdur",
+    "lat": 37.7203,
+    "lon": 30.2908,
+    "slug": "burdur",
+    "sourceUrl": "https://burdur.eczaneleri.net/"
+  },
+  {
+    "city": "Bursa",
+    "lat": 40.1828,
+    "lon": 29.0664,
+    "slug": "bursa",
+    "sourceUrl": "https://bursa.eczaneleri.net/"
+  },
+  {
+    "city": "Çanakkale",
+    "lat": 40.1553,
+    "lon": 26.4142,
+    "slug": "canakkale",
+    "sourceUrl": "https://canakkale.eczaneleri.net/"
+  },
+  {
+    "city": "Çankırı",
+    "lat": 40.6013,
+    "lon": 33.6134,
+    "slug": "cankiri",
+    "sourceUrl": "https://cankiri.eczaneleri.net/"
+  },
+  {
+    "city": "Çorum",
+    "lat": 40.5506,
+    "lon": 34.9556,
+    "slug": "corum",
+    "sourceUrl": "https://corum.eczaneleri.net/"
+  },
+  {
+    "city": "Denizli",
+    "lat": 37.7765,
+    "lon": 29.0864,
+    "slug": "denizli",
+    "sourceUrl": "https://denizli.eczaneleri.net/"
+  },
+  {
+    "city": "Diyarbakır",
+    "lat": 37.9144,
+    "lon": 40.2306,
+    "slug": "diyarbakir",
+    "sourceUrl": "https://diyarbakir.eczaneleri.net/"
+  },
+  {
+    "city": "Edirne",
+    "lat": 41.6771,
+    "lon": 26.5557,
+    "slug": "edirne",
+    "sourceUrl": "https://edirne.eczaneleri.net/"
+  },
+  {
+    "city": "Elazığ",
+    "lat": 38.6748,
+    "lon": 39.2225,
+    "slug": "elazig",
+    "sourceUrl": "https://elazig.eczaneleri.net/"
+  },
+  {
+    "city": "Erzincan",
+    "lat": 39.75,
+    "lon": 39.5,
+    "slug": "erzincan",
+    "sourceUrl": "https://erzincan.eczaneleri.net/"
+  },
+  {
+    "city": "Erzurum",
+    "lat": 39.9,
+    "lon": 41.27,
+    "slug": "erzurum",
+    "sourceUrl": "https://erzurum.eczaneleri.net/"
+  },
+  {
+    "city": "Eskişehir",
+    "lat": 39.7767,
+    "lon": 30.5206,
+    "slug": "eskisehir",
+    "sourceUrl": "https://eskisehir.eczaneleri.net/"
+  },
+  {
+    "city": "Gaziantep",
+    "lat": 37.0662,
+    "lon": 37.3833,
+    "slug": "gaziantep",
+    "sourceUrl": "https://gaziantep.eczaneleri.net/"
+  },
+  {
+    "city": "Giresun",
+    "lat": 40.9128,
+    "lon": 38.3895,
+    "slug": "giresun",
+    "sourceUrl": "https://giresun.eczaneleri.net/"
+  },
+  {
+    "city": "Gümüşhane",
+    "lat": 40.4386,
+    "lon": 39.5086,
+    "slug": "gumushane",
+    "sourceUrl": "https://gumushane.eczaneleri.net/"
+  },
+  {
+    "city": "Hakkari",
+    "lat": 37.5833,
+    "lon": 43.7333,
+    "slug": "hakkari",
+    "sourceUrl": "https://hakkari.eczaneleri.net/"
+  },
+  {
+    "city": "Hatay",
+    "lat": 36.2023,
+    "lon": 36.1613,
+    "slug": "hatay",
+    "sourceUrl": "https://hatay.eczaneleri.net/"
+  },
+  {
+    "city": "Isparta",
+    "lat": 37.7648,
+    "lon": 30.5566,
+    "slug": "isparta",
+    "sourceUrl": "https://isparta.eczaneleri.net/"
+  },
+  {
+    "city": "Mersin",
+    "lat": 36.8121,
+    "lon": 34.6415,
+    "slug": "mersin",
+    "sourceUrl": "https://mersin.eczaneleri.net/"
+  },
+  {
+    "city": "İstanbul",
+    "lat": 41.0082,
+    "lon": 28.9784,
+    "slug": "istanbul",
+    "sourceUrl": "https://istanbul.eczaneleri.net/"
+  },
+  {
+    "city": "İzmir",
+    "lat": 38.4237,
+    "lon": 27.1428,
+    "slug": "izmir",
+    "sourceUrl": "https://izmir.eczaneleri.net/"
+  },
+  {
+    "city": "Kars",
+    "lat": 40.6013,
+    "lon": 43.0975,
+    "slug": "kars",
+    "sourceUrl": "https://kars.eczaneleri.net/"
+  },
+  {
+    "city": "Kastamonu",
+    "lat": 41.3887,
+    "lon": 33.7827,
+    "slug": "kastamonu",
+    "sourceUrl": "https://kastamonu.eczaneleri.net/"
+  },
+  {
+    "city": "Kayseri",
+    "lat": 38.7312,
+    "lon": 35.4787,
+    "slug": "kayseri",
+    "sourceUrl": "https://kayseri.eczaneleri.net/"
+  },
+  {
+    "city": "Kırklareli",
+    "lat": 41.7333,
+    "lon": 27.2167,
+    "slug": "kirklareli",
+    "sourceUrl": "https://kirklareli.eczaneleri.net/"
+  },
+  {
+    "city": "Kırşehir",
+    "lat": 39.1425,
+    "lon": 34.1709,
+    "slug": "kirsehir",
+    "sourceUrl": "https://kirsehir.eczaneleri.net/"
+  },
+  {
+    "city": "Kocaeli",
+    "lat": 40.8533,
+    "lon": 29.8815,
+    "slug": "kocaeli",
+    "sourceUrl": "https://kocaeli.eczaneleri.net/"
+  },
+  {
+    "city": "Konya",
+    "lat": 37.8746,
+    "lon": 32.4932,
+    "slug": "konya",
+    "sourceUrl": "https://konya.eczaneleri.net/"
+  },
+  {
+    "city": "Kütahya",
+    "lat": 39.4167,
+    "lon": 29.9833,
+    "slug": "kutahya",
+    "sourceUrl": "https://kutahya.eczaneleri.net/"
+  },
+  {
+    "city": "Malatya",
+    "lat": 38.3552,
+    "lon": 38.3095,
+    "slug": "malatya",
+    "sourceUrl": "https://malatya.eczaneleri.net/"
+  },
+  {
+    "city": "Manisa",
+    "lat": 38.6191,
+    "lon": 27.4289,
+    "slug": "manisa",
+    "sourceUrl": "https://manisa.eczaneleri.net/"
+  },
+  {
+    "city": "Kahramanmaraş",
+    "lat": 37.5753,
+    "lon": 36.9228,
+    "slug": "kahramanmaras",
+    "sourceUrl": "https://kahramanmaras.eczaneleri.net/"
+  },
+  {
+    "city": "Mardin",
+    "lat": 37.3212,
+    "lon": 40.7245,
+    "slug": "mardin",
+    "sourceUrl": "https://mardin.eczaneleri.net/"
+  },
+  {
+    "city": "Muğla",
+    "lat": 37.2153,
+    "lon": 28.3636,
+    "slug": "mugla",
+    "sourceUrl": "https://mugla.eczaneleri.net/"
+  },
+  {
+    "city": "Muş",
+    "lat": 38.9462,
+    "lon": 41.7539,
+    "slug": "mus",
+    "sourceUrl": "https://mus.eczaneleri.net/"
+  },
+  {
+    "city": "Nevşehir",
+    "lat": 38.6244,
+    "lon": 34.7144,
+    "slug": "nevsehir",
+    "sourceUrl": "https://nevsehir.eczaneleri.net/"
+  },
+  {
+    "city": "Niğde",
+    "lat": 37.9667,
+    "lon": 34.6833,
+    "slug": "nigde",
+    "sourceUrl": "https://nigde.eczaneleri.net/"
+  },
+  {
+    "city": "Ordu",
+    "lat": 40.9862,
+    "lon": 37.8797,
+    "slug": "ordu",
+    "sourceUrl": "https://ordu.eczaneleri.net/"
+  },
+  {
+    "city": "Rize",
+    "lat": 41.0201,
+    "lon": 40.5234,
+    "slug": "rize",
+    "sourceUrl": "https://rize.eczaneleri.net/"
+  },
+  {
+    "city": "Sakarya",
+    "lat": 40.7569,
+    "lon": 30.3781,
+    "slug": "sakarya",
+    "sourceUrl": "https://sakarya.eczaneleri.net/"
+  },
+  {
+    "city": "Samsun",
+    "lat": 41.2867,
+    "lon": 36.33,
+    "slug": "samsun",
+    "sourceUrl": "https://samsun.eczaneleri.net/"
+  },
+  {
+    "city": "Siirt",
+    "lat": 37.9333,
+    "lon": 41.95,
+    "slug": "siirt",
+    "sourceUrl": "https://siirt.eczaneleri.net/"
+  },
+  {
+    "city": "Sinop",
+    "lat": 42.0231,
+    "lon": 35.1531,
+    "slug": "sinop",
+    "sourceUrl": "https://sinop.eczaneleri.net/"
+  },
+  {
+    "city": "Sivas",
+    "lat": 39.7477,
+    "lon": 37.0179,
+    "slug": "sivas",
+    "sourceUrl": "https://sivas.eczaneleri.net/"
+  },
+  {
+    "city": "Tekirdağ",
+    "lat": 40.978,
+    "lon": 27.511,
+    "slug": "tekirdag",
+    "sourceUrl": "https://tekirdag.eczaneleri.net/"
+  },
+  {
+    "city": "Tokat",
+    "lat": 40.3167,
+    "lon": 36.55,
+    "slug": "tokat",
+    "sourceUrl": "https://tokat.eczaneleri.net/"
+  },
+  {
+    "city": "Trabzon",
+    "lat": 41.0015,
+    "lon": 39.7178,
+    "slug": "trabzon",
+    "sourceUrl": "https://trabzon.eczaneleri.net/"
+  },
+  {
+    "city": "Tunceli",
+    "lat": 39.1062,
+    "lon": 39.5483,
+    "slug": "tunceli",
+    "sourceUrl": "https://tunceli.eczaneleri.net/"
+  },
+  {
+    "city": "Şanlıurfa",
+    "lat": 37.1591,
+    "lon": 38.7969,
+    "slug": "sanliurfa",
+    "sourceUrl": "https://sanliurfa.eczaneleri.net/"
+  },
+  {
+    "city": "Uşak",
+    "lat": 38.6823,
+    "lon": 29.4082,
+    "slug": "usak",
+    "sourceUrl": "https://usak.eczaneleri.net/"
+  },
+  {
+    "city": "Van",
+    "lat": 38.4891,
+    "lon": 43.4089,
+    "slug": "van",
+    "sourceUrl": "https://van.eczaneleri.net/"
+  },
+  {
+    "city": "Yozgat",
+    "lat": 39.8181,
+    "lon": 34.8147,
+    "slug": "yozgat",
+    "sourceUrl": "https://yozgat.eczaneleri.net/"
+  },
+  {
+    "city": "Zonguldak",
+    "lat": 41.4564,
+    "lon": 31.7987,
+    "slug": "zonguldak",
+    "sourceUrl": "https://zonguldak.eczaneleri.net/"
+  },
+  {
+    "city": "Aksaray",
+    "lat": 38.3687,
+    "lon": 34.037,
+    "slug": "aksaray",
+    "sourceUrl": "https://aksaray.eczaneleri.net/"
+  },
+  {
+    "city": "Bayburt",
+    "lat": 40.2552,
+    "lon": 40.2249,
+    "slug": "bayburt",
+    "sourceUrl": "https://bayburt.eczaneleri.net/"
+  },
+  {
+    "city": "Karaman",
+    "lat": 37.1811,
+    "lon": 33.215,
+    "slug": "karaman",
+    "sourceUrl": "https://karaman.eczaneleri.net/"
+  },
+  {
+    "city": "Kırıkkale",
+    "lat": 39.8468,
+    "lon": 33.5153,
+    "slug": "kirikkale",
+    "sourceUrl": "https://kirikkale.eczaneleri.net/"
+  },
+  {
+    "city": "Batman",
+    "lat": 37.8812,
+    "lon": 41.1351,
+    "slug": "batman",
+    "sourceUrl": "https://batman.eczaneleri.net/"
+  },
+  {
+    "city": "Şırnak",
+    "lat": 37.4187,
+    "lon": 42.4918,
+    "slug": "sirnak",
+    "sourceUrl": "https://sirnak.eczaneleri.net/"
+  },
+  {
+    "city": "Bartın",
+    "lat": 41.5811,
+    "lon": 32.461,
+    "slug": "bartin",
+    "sourceUrl": "https://bartin.eczaneleri.net/"
+  },
+  {
+    "city": "Ardahan",
+    "lat": 41.1105,
+    "lon": 42.7022,
+    "slug": "ardahan",
+    "sourceUrl": "https://ardahan.eczaneleri.net/"
+  },
+  {
+    "city": "Iğdır",
+    "lat": 39.9237,
+    "lon": 44.045,
+    "slug": "igdir",
+    "sourceUrl": "https://igdir.eczaneleri.net/"
+  },
+  {
+    "city": "Yalova",
+    "lat": 40.65,
+    "lon": 29.2667,
+    "slug": "yalova",
+    "sourceUrl": "https://yalova.eczaneleri.net/"
+  },
+  {
+    "city": "Karabük",
+    "lat": 41.2061,
+    "lon": 32.6204,
+    "slug": "karabuk",
+    "sourceUrl": "https://karabuk.eczaneleri.net/"
+  },
+  {
+    "city": "Kilis",
+    "lat": 36.7167,
+    "lon": 37.1167,
+    "slug": "kilis",
+    "sourceUrl": "https://kilis.eczaneleri.net/"
+  },
+  {
+    "city": "Osmaniye",
+    "lat": 37.0742,
+    "lon": 36.2478,
+    "slug": "osmaniye",
+    "sourceUrl": "https://osmaniye.eczaneleri.net/"
+  },
+  {
+    "city": "Düzce",
+    "lat": 40.8438,
+    "lon": 31.1565,
+    "slug": "duzce",
+    "sourceUrl": "https://duzce.eczaneleri.net/"
+  }
+]

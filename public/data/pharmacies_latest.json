@@ -1,0 +1,18 @@
+{
+  "generatedAt": null,
+  "expiresAt": null,
+  "source": {
+    "duty": "free_public_city_pages_daily_scrape_not_yet_run",
+    "normal": "public/data/normal_pharmacies_seed.json"
+  },
+  "notice": "GitHub Actions çalışınca 81 il için ücretsiz günlük nöbetçi eczane cache dosyası burada oluşur.",
+  "totals": {
+    "duty": 0,
+    "normal": 0,
+    "all": 0,
+    "cities": 81,
+    "cityErrors": 0
+  },
+  "errors": [],
+  "pharmacies": []
+}

@@ -1,0 +1,4 @@
+{
+  "note": "Normal eczane listesi için statik/OSM tabanlı seed dosyası. Büyük Overpass sorgularını her gün çalıştırmamak için haftalık veya aylık güncelleyin.",
+  "pharmacies": []
+}

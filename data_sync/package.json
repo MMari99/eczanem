@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "sync": "node sync_pharmacies.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
