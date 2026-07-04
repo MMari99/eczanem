@@ -1,18 +1,424 @@
 {
-  "generatedAt": null,
-  "expiresAt": null,
+  "generatedAt": "2026-07-04T00:01:59.175Z",
+  "expiresAt": "2026-07-05T02:01:59.175Z",
   "source": {
-    "duty": "free_public_city_pages_daily_scrape_not_yet_run",
+    "duty": "free_public_city_pages_daily_scrape",
     "normal": "public/data/normal_pharmacies_seed.json"
   },
-  "notice": "GitHub Actions çalışınca 81 il için ücretsiz günlük nöbetçi eczane cache dosyası burada oluşur.",
+  "notice": "Nöbetçi eczane verisi kamuya açık il sayfalarından günde bir kez derlenir. Koordinat bulunmayan kayıtlar il merkezi koordinatı ile işaretlenir.",
   "totals": {
     "duty": 0,
     "normal": 0,
     "all": 0,
     "cities": 81,
-    "cityErrors": 0
+    "cityErrors": 81
   },
-  "errors": [],
+  "errors": [
+    {
+      "city": "Adana",
+      "sourceUrl": "https://adana.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Adıyaman",
+      "sourceUrl": "https://adiyaman.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Afyonkarahisar",
+      "sourceUrl": "https://afyonkarahisar.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Ağrı",
+      "sourceUrl": "https://agri.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Amasya",
+      "sourceUrl": "https://amasya.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Ankara",
+      "sourceUrl": "https://ankara.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Antalya",
+      "sourceUrl": "https://antalya.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Artvin",
+      "sourceUrl": "https://artvin.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Aydın",
+      "sourceUrl": "https://aydin.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Balıkesir",
+      "sourceUrl": "https://balikesir.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Bilecik",
+      "sourceUrl": "https://bilecik.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Bingöl",
+      "sourceUrl": "https://bingol.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Bitlis",
+      "sourceUrl": "https://bitlis.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Bolu",
+      "sourceUrl": "https://bolu.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Burdur",
+      "sourceUrl": "https://burdur.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Bursa",
+      "sourceUrl": "https://bursa.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Çanakkale",
+      "sourceUrl": "https://canakkale.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Çankırı",
+      "sourceUrl": "https://cankiri.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Çorum",
+      "sourceUrl": "https://corum.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Denizli",
+      "sourceUrl": "https://denizli.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Diyarbakır",
+      "sourceUrl": "https://diyarbakir.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Edirne",
+      "sourceUrl": "https://edirne.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Elazığ",
+      "sourceUrl": "https://elazig.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Erzincan",
+      "sourceUrl": "https://erzincan.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Erzurum",
+      "sourceUrl": "https://erzurum.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Eskişehir",
+      "sourceUrl": "https://eskisehir.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Gaziantep",
+      "sourceUrl": "https://gaziantep.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Giresun",
+      "sourceUrl": "https://giresun.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Gümüşhane",
+      "sourceUrl": "https://gumushane.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Hakkari",
+      "sourceUrl": "https://hakkari.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Hatay",
+      "sourceUrl": "https://hatay.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Isparta",
+      "sourceUrl": "https://isparta.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Mersin",
+      "sourceUrl": "https://mersin.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "İstanbul",
+      "sourceUrl": "https://istanbul.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "İzmir",
+      "sourceUrl": "https://izmir.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Kars",
+      "sourceUrl": "https://kars.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Kastamonu",
+      "sourceUrl": "https://kastamonu.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Kayseri",
+      "sourceUrl": "https://kayseri.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Kırklareli",
+      "sourceUrl": "https://kirklareli.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Kırşehir",
+      "sourceUrl": "https://kirsehir.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Kocaeli",
+      "sourceUrl": "https://kocaeli.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Konya",
+      "sourceUrl": "https://konya.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Kütahya",
+      "sourceUrl": "https://kutahya.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Malatya",
+      "sourceUrl": "https://malatya.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Manisa",
+      "sourceUrl": "https://manisa.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Kahramanmaraş",
+      "sourceUrl": "https://kahramanmaras.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Mardin",
+      "sourceUrl": "https://mardin.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Muğla",
+      "sourceUrl": "https://mugla.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Muş",
+      "sourceUrl": "https://mus.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Nevşehir",
+      "sourceUrl": "https://nevsehir.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Niğde",
+      "sourceUrl": "https://nigde.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Ordu",
+      "sourceUrl": "https://ordu.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Rize",
+      "sourceUrl": "https://rize.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Sakarya",
+      "sourceUrl": "https://sakarya.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Samsun",
+      "sourceUrl": "https://samsun.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Siirt",
+      "sourceUrl": "https://siirt.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Sinop",
+      "sourceUrl": "https://sinop.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Sivas",
+      "sourceUrl": "https://sivas.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Tekirdağ",
+      "sourceUrl": "https://tekirdag.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Tokat",
+      "sourceUrl": "https://tokat.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Trabzon",
+      "sourceUrl": "https://trabzon.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Tunceli",
+      "sourceUrl": "https://tunceli.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Şanlıurfa",
+      "sourceUrl": "https://sanliurfa.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Uşak",
+      "sourceUrl": "https://usak.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Van",
+      "sourceUrl": "https://van.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Yozgat",
+      "sourceUrl": "https://yozgat.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Zonguldak",
+      "sourceUrl": "https://zonguldak.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Aksaray",
+      "sourceUrl": "https://aksaray.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Bayburt",
+      "sourceUrl": "https://bayburt.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Karaman",
+      "sourceUrl": "https://karaman.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Kırıkkale",
+      "sourceUrl": "https://kirikkale.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Batman",
+      "sourceUrl": "https://batman.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Şırnak",
+      "sourceUrl": "https://sirnak.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Bartın",
+      "sourceUrl": "https://bartin.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Ardahan",
+      "sourceUrl": "https://ardahan.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Iğdır",
+      "sourceUrl": "https://igdir.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Yalova",
+      "sourceUrl": "https://yalova.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Karabük",
+      "sourceUrl": "https://karabuk.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Kilis",
+      "sourceUrl": "https://kilis.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Osmaniye",
+      "sourceUrl": "https://osmaniye.eczaneleri.net/",
+      "error": "HTTP 403"
+    },
+    {
+      "city": "Düzce",
+      "sourceUrl": "https://duzce.eczaneleri.net/",
+      "error": "HTTP 403"
+    }
+  ],
   "pharmacies": []
 }
