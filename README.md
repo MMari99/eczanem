@@ -48,3 +48,14 @@ Normal eczane datası için `public/data/normal_pharmacies_seed.json` kullanıl�
 Bu sistem API anahtarı istemez. Yine de kaynak siteleri yormamak için günlük tek çalıştırma ve istekler arasında bekleme uygulanır.
 
 Not: Bazı kaynaklar GitHub Actions IP adreslerine 403 döndürebilir. Günlük sync scripti önce tarayıcı benzeri başlıklarla dener, olmazsa ücretsiz reader fallback üzerinden tekrar dener.
+
+
+## Windows Uzerinden Yerel Gunluk Sync
+
+GitHub Actions bazi kaynaklardan HTTP 403 alirsa ucretsiz alternatif olarak veri guncellemesini kendi Windows bilgisayarinizdan calistirabilirsiniz. Bunun icin data_sync/run_local_sync_and_push.ps1 dosyasi eklidir.
+
+Elle test komutu:
+
+powershell -ExecutionPolicy Bypass -File "C:\Users\efeyi\Documents\Codex\2026-07-04\files-mentioned-by-the-user-codex\outputs\eczanem\data_sync\run_local_sync_and_push.ps1"
+
+Her sabah 09:00 icin Windows Gorev Zamanlayici uygulamasinda bu PowerShell komutunu zamanlayin. Bilgisayar acik ve internete bagli olmalidir.
