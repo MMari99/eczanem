@@ -6,12 +6,13 @@ $Node = "C:\Program Files\nodejs\node.exe"
 
 Set-Location $ProjectRoot
 
+Write-Host "GitHub tarafindaki son degisiklikler aliniyor..."
+& $Git pull --rebase origin main
+if ($LASTEXITCODE -ne 0) { throw "Git pull basarisiz oldu." }
+
 Write-Host "Eczanem gunluk veri guncelleme basladi..."
 & $Node data_sync/sync_pharmacies.mjs
 if ($LASTEXITCODE -ne 0) { throw "Veri guncelleme scripti basarisiz oldu." }
-
-& $Git pull --rebase origin main
-if ($LASTEXITCODE -ne 0) { throw "Git pull basarisiz oldu." }
 
 & $Git add public/data/pharmacies_latest.json
 
