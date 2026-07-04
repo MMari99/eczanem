@@ -46,3 +46,5 @@ Normal eczane datası için `public/data/normal_pharmacies_seed.json` kullanıl�
 `data_sync/free_sources.json` içinde 81 il için kaynak URL bulunur. Varsayılan kaynaklar il bazlı kamuya açık `eczaneleri.net` sayfalarıdır. Bir ilin resmi eczacı odası sayfası daha sağlıklı veri verirse aynı dosyada o ilin `sourceUrl` alanı değiştirilebilir.
 
 Bu sistem API anahtarı istemez. Yine de kaynak siteleri yormamak için günlük tek çalıştırma ve istekler arasında bekleme uygulanır.
+
+Not: Bazı kaynaklar GitHub Actions IP adreslerine 403 döndürebilir. Günlük sync scripti önce tarayıcı benzeri başlıklarla dener, olmazsa ücretsiz reader fallback üzerinden tekrar dener.

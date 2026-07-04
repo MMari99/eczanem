@@ -89,21 +89,49 @@ function parseCityPage(html, source) {
   return items;
 }
 
+function browserHeaders(source) {
+  return {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36',
+    Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'Accept-Language': 'tr-TR,tr;q=0.9,en-US;q=0.7,en;q=0.6',
+    'Cache-Control': 'no-cache',
+    Pragma: 'no-cache',
+    Referer: 'https://eczaneleri.net/',
+    'Upgrade-Insecure-Requests': '1'
+  };
+}
+
+function readerUrl(url) {
+  return 'https://r.jina.ai/http://r.jina.ai/http://' + url;
+}
+
+async function fetchText(url, source) {
+  const response = await fetch(url, { headers: browserHeaders(source) });
+  if (!response.ok) throw new Error('HTTP ' + response.status);
+  return response.text();
+}
+
 async function fetchCity(source) {
-  try {
-    const response = await fetch(source.sourceUrl, {
-      headers: {
-        'User-Agent': 'EczanemDailyFreeSync/1.0 (+GitHub Actions; daily cache)',
-        Accept: 'text/html,application/xhtml+xml'
-      }
-    });
-    if (!response.ok) return { source, items: [], error: 'HTTP ' + response.status };
-    const html = await response.text();
-    const items = parseCityPage(html, source);
-    return { source, items };
-  } catch (error) {
-    return { source, items: [], error: error.message };
+  const attempts = [
+    source.sourceUrl,
+    source.sourceUrl.replace('https://', 'http://'),
+    readerUrl(source.sourceUrl),
+    readerUrl(source.sourceUrl.replace('https://', 'http://'))
+  ];
+  const errors = [];
+
+  for (const url of attempts) {
+    try {
+      const html = await fetchText(url, source);
+      const items = parseCityPage(html, source);
+      if (items.length > 0) return { source, items, usedUrl: url };
+      errors.push(url + ' -> No pharmacies parsed');
+    } catch (error) {
+      errors.push(url + ' -> ' + error.message);
+    }
   }
+
+  return { source, items: [], error: errors.join(' | ') };
 }
 
 async function main() {
