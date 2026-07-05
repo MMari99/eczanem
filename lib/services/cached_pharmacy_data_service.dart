@@ -38,8 +38,11 @@ class CachedPharmacyDataService {
   }
 
   bool _matches(Pharmacy pharmacy, String? city, String? district) {
-    final cityOk = city == null || city.isEmpty || pharmacy.city?.toLowerCase() == city.toLowerCase();
-    final districtOk = district == null || district.isEmpty || pharmacy.district?.toLowerCase() == district.toLowerCase();
+    final wantedCity = city?.trim().toLowerCase();
+    final wantedDistrict = district?.trim().toLowerCase();
+    final cityOk = wantedCity == null || wantedCity.isEmpty || pharmacy.city?.toLowerCase() == wantedCity;
+    final ignoreDistrict = wantedDistrict == null || wantedDistrict.isEmpty || wantedDistrict == 'merkez';
+    final districtOk = ignoreDistrict || pharmacy.district?.toLowerCase() == wantedDistrict;
     return cityOk && districtOk;
   }
 

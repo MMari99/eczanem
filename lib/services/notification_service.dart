@@ -17,7 +17,7 @@ class NotificationService {
     } catch (_) {}
     const android = AndroidInitializationSettings('@mipmap/ic_launcher');
     const ios = DarwinInitializationSettings();
-    await _plugin.initialize(const InitializationSettings(android: android, iOS: ios));
+    await _plugin.initialize(settings: const InitializationSettings(android: android, iOS: ios));
     await _plugin.resolvePlatformSpecificImplementation<AndroidFlutterLocalNotificationsPlugin>()?.createNotificationChannel(const AndroidNotificationChannel(channelId, 'İlaç Hatırlatmaları', description: 'İlaç saatleri için yerel hatırlatmalar', importance: Importance.high));
   }
 
@@ -33,13 +33,13 @@ class NotificationService {
       final id = _id(medication.id, time);
       final details = const NotificationDetails(android: AndroidNotificationDetails(channelId, 'İlaç Hatırlatmaları', importance: Importance.high, priority: Priority.high), iOS: DarwinNotificationDetails());
       final when = _next(time, medication);
-      await _plugin.zonedSchedule(id, 'İlaç Vakti 💊', medication.note?.isNotEmpty == true ? '${medication.name} - ${medication.note}' : medication.name, when, details, androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle, matchDateTimeComponents: _match(medication), payload: medication.id);
+      await _plugin.zonedSchedule(id: id, title: 'İlaç Vakti 💊', body: medication.note?.isNotEmpty == true ? '${medication.name} - ${medication.note}' : medication.name, scheduledDate: when, notificationDetails: details, androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle, matchDateTimeComponents: _match(medication), payload: medication.id);
     }
   }
 
   Future<void> cancelMedication(String medicationId) async {
     for (var i = 0; i < 24 * 60; i++) {
-      await _plugin.cancel(medicationId.hashCode ^ i);
+      await _plugin.cancel(id: medicationId.hashCode ^ i);
     }
   }
 

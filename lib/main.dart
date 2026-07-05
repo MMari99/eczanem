@@ -5,7 +5,8 @@ import 'package:intl/date_symbol_data_local.dart';
 import 'package:provider/provider.dart';
 import 'models/medication.dart';
 import 'models/pharmacy.dart';
-import 'navigation/main_navigation_shell.dart';
+import 'navigation/app_gate.dart';
+import 'providers/app_state_provider.dart';
 import 'providers/location_provider.dart';
 import 'providers/medication_provider.dart';
 import 'providers/pharmacy_provider.dart';
@@ -28,23 +29,27 @@ Future<void> main() async {
     ..registerAdapter(MedicationAdapter())
     ..registerAdapter(TimeOfDayAdapter());
   await Hive.openBox<Medication>(MedicationStorageService.boxName);
+  final settingsBox = await Hive.openBox(AppStateProvider.boxName);
   final notificationService = NotificationService();
   await notificationService.init();
-  runApp(EczanemApp(notificationService: notificationService));
+  runApp(EczanemApp(notificationService: notificationService, settingsBox: settingsBox));
 }
 
 class EczanemApp extends StatelessWidget {
-  const EczanemApp({super.key, required this.notificationService});
+  const EczanemApp({super.key, required this.notificationService, required this.settingsBox});
   final NotificationService notificationService;
+  final Box settingsBox;
+
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (_) => LocationProvider(LocationService())..load()),
+        ChangeNotifierProvider(create: (_) => AppStateProvider(settingsBox)),
+        ChangeNotifierProvider(create: (_) => LocationProvider(LocationService())),
         ChangeNotifierProvider(create: (_) => PharmacyProvider(EczaneApiService(), OverpassService(), CachedPharmacyDataService())),
         ChangeNotifierProvider(create: (_) => MedicationProvider(MedicationStorageService(), notificationService)..load()),
       ],
-      child: MaterialApp(title: 'Eczanem', debugShowCheckedModeBanner: false, theme: AppTheme.light(), home: const MainNavigationShell()),
+      child: MaterialApp(title: 'Eczanem', debugShowCheckedModeBanner: false, theme: AppTheme.light(), home: const AppGate()),
     );
   }
 }

@@ -17,9 +17,13 @@ class MedicationProvider extends ChangeNotifier {
   }
 
   Future<void> save(Medication medication) async {
-    notificationsAllowed = await _notifications.requestPermission();
     await _storage.save(medication);
-    if (notificationsAllowed) await _notifications.scheduleMedication(medication);
+    try {
+      notificationsAllowed = await _notifications.requestPermission();
+      if (notificationsAllowed) await _notifications.scheduleMedication(medication);
+    } catch (_) {
+      notificationsAllowed = false;
+    }
     await load();
   }
 

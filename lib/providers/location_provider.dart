@@ -13,12 +13,19 @@ class LocationProvider extends ChangeNotifier {
   Future<void> load() async {
     loading = true;
     notifyListeners();
-    final result = await _service.currentPosition();
-    position = result.position;
-    deniedForever = result.deniedForever;
-    message = result.message;
-    loading = false;
-    notifyListeners();
+    try {
+      final result = await _service.currentPosition();
+      position = result.position;
+      deniedForever = result.deniedForever;
+      message = result.message;
+    } catch (_) {
+      position = null;
+      deniedForever = false;
+      message = 'Konum alınamadı. İl / ilçe seçerek devam edebilirsiniz.';
+    } finally {
+      loading = false;
+      notifyListeners();
+    }
   }
   Future<void> openSettings() => _service.openSettings();
 }
