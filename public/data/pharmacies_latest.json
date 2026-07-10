@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-09T09:39:09.936Z",
-  "expiresAt": "2026-07-10T11:39:09.936Z",
+  "generatedAt": "2026-07-10T09:25:40.501Z",
+  "expiresAt": "2026-07-11T11:25:40.501Z",
   "source": {
     "duty": "free_public_city_pages_daily_scrape",
     "normal": "public/data/normal_pharmacies_seed.json"
@@ -342,7 +342,7 @@
     {
       "city": "Yozgat",
       "sourceUrl": "https://yozgat.eczaneleri.net/",
-      "error": "https://yozgat.eczaneleri.net/ -> HTTP 403 | http://yozgat.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://yozgat.eczaneleri.net/ -> HTTP 503 | https://r.jina.ai/http://r.jina.ai/http://http://yozgat.eczaneleri.net/ -> No pharmacies parsed"
+      "error": "https://yozgat.eczaneleri.net/ -> HTTP 403 | http://yozgat.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://yozgat.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://yozgat.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Zonguldak",
