@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-10T09:25:40.501Z",
-  "expiresAt": "2026-07-11T11:25:40.501Z",
+  "generatedAt": "2026-07-11T07:46:40.372Z",
+  "expiresAt": "2026-07-12T09:46:40.372Z",
   "source": {
     "duty": "free_public_city_pages_daily_scrape",
     "normal": "public/data/normal_pharmacies_seed.json"
@@ -347,7 +347,7 @@
     {
       "city": "Zonguldak",
       "sourceUrl": "https://zonguldak.eczaneleri.net/",
-      "error": "https://zonguldak.eczaneleri.net/ -> HTTP 403 | http://zonguldak.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://zonguldak.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://zonguldak.eczaneleri.net/ -> No pharmacies parsed"
+      "error": "https://zonguldak.eczaneleri.net/ -> HTTP 403 | http://zonguldak.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://zonguldak.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://zonguldak.eczaneleri.net/ -> HTTP 503"
     },
     {
       "city": "Aksaray",
