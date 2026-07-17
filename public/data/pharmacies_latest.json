@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-16T08:03:19.014Z",
-  "expiresAt": "2026-07-17T10:03:19.014Z",
+  "generatedAt": "2026-07-17T08:00:22.665Z",
+  "expiresAt": "2026-07-18T10:00:22.665Z",
   "source": {
     "duty": "free_public_city_pages_daily_scrape",
     "normal": "public/data/normal_pharmacies_seed.json"
@@ -97,7 +97,7 @@
     {
       "city": "Çanakkale",
       "sourceUrl": "https://canakkale.eczaneleri.net/",
-      "error": "https://canakkale.eczaneleri.net/ -> HTTP 403 | http://canakkale.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://canakkale.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://canakkale.eczaneleri.net/ -> HTTP 503"
+      "error": "https://canakkale.eczaneleri.net/ -> HTTP 403 | http://canakkale.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://canakkale.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://canakkale.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Çankırı",
