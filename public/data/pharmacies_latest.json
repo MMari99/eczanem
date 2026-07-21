@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-20T08:48:51.981Z",
-  "expiresAt": "2026-07-21T10:48:51.981Z",
+  "generatedAt": "2026-07-21T08:17:00.281Z",
+  "expiresAt": "2026-07-22T10:17:00.281Z",
   "source": {
     "duty": "free_public_city_pages_daily_scrape",
     "normal": "public/data/normal_pharmacies_seed.json"
@@ -52,7 +52,7 @@
     {
       "city": "Artvin",
       "sourceUrl": "https://artvin.eczaneleri.net/",
-      "error": "https://artvin.eczaneleri.net/ -> HTTP 403 | http://artvin.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://artvin.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://artvin.eczaneleri.net/ -> HTTP 503"
+      "error": "https://artvin.eczaneleri.net/ -> HTTP 403 | http://artvin.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://artvin.eczaneleri.net/ -> HTTP 503 | https://r.jina.ai/http://r.jina.ai/http://http://artvin.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Aydın",
