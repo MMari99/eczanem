@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-22T08:17:52.915Z",
-  "expiresAt": "2026-07-23T10:17:52.915Z",
+  "generatedAt": "2026-07-23T08:21:26.202Z",
+  "expiresAt": "2026-07-24T10:21:26.202Z",
   "source": {
     "duty": "free_public_city_pages_daily_scrape",
     "normal": "public/data/normal_pharmacies_seed.json"
@@ -117,7 +117,7 @@
     {
       "city": "Diyarbakır",
       "sourceUrl": "https://diyarbakir.eczaneleri.net/",
-      "error": "https://diyarbakir.eczaneleri.net/ -> HTTP 403 | http://diyarbakir.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://diyarbakir.eczaneleri.net/ -> HTTP 503 | https://r.jina.ai/http://r.jina.ai/http://http://diyarbakir.eczaneleri.net/ -> No pharmacies parsed"
+      "error": "https://diyarbakir.eczaneleri.net/ -> HTTP 403 | http://diyarbakir.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://diyarbakir.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://diyarbakir.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Edirne",
