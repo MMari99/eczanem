@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-27T09:40:02.522Z",
-  "expiresAt": "2026-07-28T11:40:02.522Z",
+  "generatedAt": "2026-07-28T08:24:31.167Z",
+  "expiresAt": "2026-07-29T10:24:31.167Z",
   "source": {
     "duty": "free_public_city_pages_daily_scrape",
     "normal": "public/data/normal_pharmacies_seed.json"
@@ -247,7 +247,7 @@
     {
       "city": "Mardin",
       "sourceUrl": "https://mardin.eczaneleri.net/",
-      "error": "https://mardin.eczaneleri.net/ -> HTTP 403 | http://mardin.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://mardin.eczaneleri.net/ -> HTTP 503 | https://r.jina.ai/http://r.jina.ai/http://http://mardin.eczaneleri.net/ -> No pharmacies parsed"
+      "error": "https://mardin.eczaneleri.net/ -> HTTP 403 | http://mardin.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://mardin.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://mardin.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Muğla",
