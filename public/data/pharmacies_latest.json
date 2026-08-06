@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-05T08:26:52.343Z",
-  "expiresAt": "2026-08-06T10:26:52.343Z",
+  "generatedAt": "2026-08-06T08:25:06.940Z",
+  "expiresAt": "2026-08-07T10:25:06.940Z",
   "source": {
     "duty": "free_public_city_pages_daily_scrape",
     "normal": "public/data/normal_pharmacies_seed.json"
@@ -227,7 +227,7 @@
     {
       "city": "Kütahya",
       "sourceUrl": "https://kutahya.eczaneleri.net/",
-      "error": "https://kutahya.eczaneleri.net/ -> HTTP 403 | http://kutahya.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://kutahya.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://kutahya.eczaneleri.net/ -> No pharmacies parsed"
+      "error": "https://kutahya.eczaneleri.net/ -> HTTP 403 | http://kutahya.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://kutahya.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://kutahya.eczaneleri.net/ -> HTTP 503"
     },
     {
       "city": "Malatya",
