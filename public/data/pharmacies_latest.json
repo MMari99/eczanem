@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-09T06:45:36.318Z",
-  "expiresAt": "2026-08-10T08:45:36.318Z",
+  "generatedAt": "2026-08-10T07:20:21.705Z",
+  "expiresAt": "2026-08-11T09:20:21.705Z",
   "source": {
     "duty": "free_public_city_pages_daily_scrape",
     "normal": "public/data/normal_pharmacies_seed.json"
@@ -237,7 +237,7 @@
     {
       "city": "Manisa",
       "sourceUrl": "https://manisa.eczaneleri.net/",
-      "error": "https://manisa.eczaneleri.net/ -> HTTP 403 | http://manisa.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://manisa.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://manisa.eczaneleri.net/ -> HTTP 503"
+      "error": "https://manisa.eczaneleri.net/ -> HTTP 403 | http://manisa.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://manisa.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://manisa.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Kahramanmaraş",
