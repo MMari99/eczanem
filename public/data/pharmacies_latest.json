@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-12T07:16:04.171Z",
-  "expiresAt": "2026-08-13T09:16:04.171Z",
+  "generatedAt": "2026-08-13T07:17:53.594Z",
+  "expiresAt": "2026-08-14T09:17:53.594Z",
   "source": {
     "duty": "free_public_city_pages_daily_scrape",
     "normal": "public/data/normal_pharmacies_seed.json"
@@ -277,7 +277,7 @@
     {
       "city": "Rize",
       "sourceUrl": "https://rize.eczaneleri.net/",
-      "error": "https://rize.eczaneleri.net/ -> HTTP 403 | http://rize.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://rize.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://rize.eczaneleri.net/ -> No pharmacies parsed"
+      "error": "https://rize.eczaneleri.net/ -> HTTP 403 | http://rize.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://rize.eczaneleri.net/ -> HTTP 503 | https://r.jina.ai/http://r.jina.ai/http://http://rize.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Sakarya",
