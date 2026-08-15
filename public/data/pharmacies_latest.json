@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-14T07:15:53.044Z",
-  "expiresAt": "2026-08-15T09:15:53.044Z",
+  "generatedAt": "2026-08-15T06:27:32.494Z",
+  "expiresAt": "2026-08-16T08:27:32.494Z",
   "source": {
     "duty": "free_public_city_pages_daily_scrape",
     "normal": "public/data/normal_pharmacies_seed.json"
@@ -162,7 +162,7 @@
     {
       "city": "Hakkari",
       "sourceUrl": "https://hakkari.eczaneleri.net/",
-      "error": "https://hakkari.eczaneleri.net/ -> HTTP 403 | http://hakkari.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://hakkari.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://hakkari.eczaneleri.net/ -> No pharmacies parsed"
+      "error": "https://hakkari.eczaneleri.net/ -> HTTP 403 | http://hakkari.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://hakkari.eczaneleri.net/ -> HTTP 503 | https://r.jina.ai/http://r.jina.ai/http://http://hakkari.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Hatay",
@@ -337,7 +337,7 @@
     {
       "city": "Van",
       "sourceUrl": "https://van.eczaneleri.net/",
-      "error": "https://van.eczaneleri.net/ -> HTTP 403 | http://van.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://van.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://van.eczaneleri.net/ -> No pharmacies parsed"
+      "error": "https://van.eczaneleri.net/ -> HTTP 403 | http://van.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://van.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://van.eczaneleri.net/ -> HTTP 503"
     },
     {
       "city": "Yozgat",
