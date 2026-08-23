@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-22T06:29:52.144Z",
-  "expiresAt": "2026-08-23T08:29:52.144Z",
+  "generatedAt": "2026-08-23T06:31:23.692Z",
+  "expiresAt": "2026-08-24T08:31:23.692Z",
   "source": {
     "duty": "free_public_city_pages_daily_scrape",
     "normal": "public/data/normal_pharmacies_seed.json"
@@ -297,27 +297,27 @@
     {
       "city": "Sinop",
       "sourceUrl": "https://sinop.eczaneleri.net/",
-      "error": "https://sinop.eczaneleri.net/ -> HTTP 403 | http://sinop.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://sinop.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://sinop.eczaneleri.net/ -> HTTP 429"
+      "error": "https://sinop.eczaneleri.net/ -> HTTP 403 | http://sinop.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://sinop.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://sinop.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Sivas",
       "sourceUrl": "https://sivas.eczaneleri.net/",
-      "error": "https://sivas.eczaneleri.net/ -> HTTP 403 | http://sivas.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://sivas.eczaneleri.net/ -> HTTP 429 | https://r.jina.ai/http://r.jina.ai/http://http://sivas.eczaneleri.net/ -> HTTP 429"
+      "error": "https://sivas.eczaneleri.net/ -> HTTP 403 | http://sivas.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://sivas.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://sivas.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Tekirdağ",
       "sourceUrl": "https://tekirdag.eczaneleri.net/",
-      "error": "https://tekirdag.eczaneleri.net/ -> HTTP 403 | http://tekirdag.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://tekirdag.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://tekirdag.eczaneleri.net/ -> HTTP 429"
+      "error": "https://tekirdag.eczaneleri.net/ -> HTTP 403 | http://tekirdag.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://tekirdag.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://tekirdag.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Tokat",
       "sourceUrl": "https://tokat.eczaneleri.net/",
-      "error": "https://tokat.eczaneleri.net/ -> HTTP 403 | http://tokat.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://tokat.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://tokat.eczaneleri.net/ -> HTTP 429"
+      "error": "https://tokat.eczaneleri.net/ -> HTTP 403 | http://tokat.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://tokat.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://tokat.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Trabzon",
       "sourceUrl": "https://trabzon.eczaneleri.net/",
-      "error": "https://trabzon.eczaneleri.net/ -> HTTP 403 | http://trabzon.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://trabzon.eczaneleri.net/ -> HTTP 429 | https://r.jina.ai/http://r.jina.ai/http://http://trabzon.eczaneleri.net/ -> No pharmacies parsed"
+      "error": "https://trabzon.eczaneleri.net/ -> HTTP 403 | http://trabzon.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://trabzon.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://trabzon.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Tunceli",
@@ -327,17 +327,17 @@
     {
       "city": "Şanlıurfa",
       "sourceUrl": "https://sanliurfa.eczaneleri.net/",
-      "error": "https://sanliurfa.eczaneleri.net/ -> HTTP 403 | http://sanliurfa.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://sanliurfa.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://sanliurfa.eczaneleri.net/ -> HTTP 429"
+      "error": "https://sanliurfa.eczaneleri.net/ -> HTTP 403 | http://sanliurfa.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://sanliurfa.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://sanliurfa.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Uşak",
       "sourceUrl": "https://usak.eczaneleri.net/",
-      "error": "https://usak.eczaneleri.net/ -> HTTP 403 | http://usak.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://usak.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://usak.eczaneleri.net/ -> HTTP 429"
+      "error": "https://usak.eczaneleri.net/ -> HTTP 403 | http://usak.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://usak.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://usak.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Van",
       "sourceUrl": "https://van.eczaneleri.net/",
-      "error": "https://van.eczaneleri.net/ -> HTTP 403 | http://van.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://van.eczaneleri.net/ -> HTTP 429 | https://r.jina.ai/http://r.jina.ai/http://http://van.eczaneleri.net/ -> HTTP 429"
+      "error": "https://van.eczaneleri.net/ -> HTTP 403 | http://van.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://van.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://van.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Yozgat",
@@ -347,12 +347,12 @@
     {
       "city": "Zonguldak",
       "sourceUrl": "https://zonguldak.eczaneleri.net/",
-      "error": "https://zonguldak.eczaneleri.net/ -> HTTP 403 | http://zonguldak.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://zonguldak.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://zonguldak.eczaneleri.net/ -> HTTP 429"
+      "error": "https://zonguldak.eczaneleri.net/ -> HTTP 403 | http://zonguldak.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://zonguldak.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://zonguldak.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Aksaray",
       "sourceUrl": "https://aksaray.eczaneleri.net/",
-      "error": "https://aksaray.eczaneleri.net/ -> HTTP 403 | http://aksaray.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://aksaray.eczaneleri.net/ -> HTTP 429 | https://r.jina.ai/http://r.jina.ai/http://http://aksaray.eczaneleri.net/ -> HTTP 429"
+      "error": "https://aksaray.eczaneleri.net/ -> HTTP 403 | http://aksaray.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://aksaray.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://aksaray.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Bayburt",
@@ -362,57 +362,57 @@
     {
       "city": "Karaman",
       "sourceUrl": "https://karaman.eczaneleri.net/",
-      "error": "https://karaman.eczaneleri.net/ -> HTTP 403 | http://karaman.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://karaman.eczaneleri.net/ -> HTTP 429 | https://r.jina.ai/http://r.jina.ai/http://http://karaman.eczaneleri.net/ -> HTTP 429"
+      "error": "https://karaman.eczaneleri.net/ -> HTTP 403 | http://karaman.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://karaman.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://karaman.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Kırıkkale",
       "sourceUrl": "https://kirikkale.eczaneleri.net/",
-      "error": "https://kirikkale.eczaneleri.net/ -> HTTP 403 | http://kirikkale.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://kirikkale.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://kirikkale.eczaneleri.net/ -> HTTP 429"
+      "error": "https://kirikkale.eczaneleri.net/ -> HTTP 403 | http://kirikkale.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://kirikkale.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://kirikkale.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Batman",
       "sourceUrl": "https://batman.eczaneleri.net/",
-      "error": "https://batman.eczaneleri.net/ -> HTTP 403 | http://batman.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://batman.eczaneleri.net/ -> HTTP 429 | https://r.jina.ai/http://r.jina.ai/http://http://batman.eczaneleri.net/ -> HTTP 429"
+      "error": "https://batman.eczaneleri.net/ -> HTTP 403 | http://batman.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://batman.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://batman.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Şırnak",
       "sourceUrl": "https://sirnak.eczaneleri.net/",
-      "error": "https://sirnak.eczaneleri.net/ -> HTTP 403 | http://sirnak.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://sirnak.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://sirnak.eczaneleri.net/ -> HTTP 429"
+      "error": "https://sirnak.eczaneleri.net/ -> HTTP 403 | http://sirnak.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://sirnak.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://sirnak.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Bartın",
       "sourceUrl": "https://bartin.eczaneleri.net/",
-      "error": "https://bartin.eczaneleri.net/ -> HTTP 403 | http://bartin.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://bartin.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://bartin.eczaneleri.net/ -> HTTP 429"
+      "error": "https://bartin.eczaneleri.net/ -> HTTP 403 | http://bartin.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://bartin.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://bartin.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Ardahan",
       "sourceUrl": "https://ardahan.eczaneleri.net/",
-      "error": "https://ardahan.eczaneleri.net/ -> HTTP 403 | http://ardahan.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://ardahan.eczaneleri.net/ -> HTTP 429 | https://r.jina.ai/http://r.jina.ai/http://http://ardahan.eczaneleri.net/ -> HTTP 429"
+      "error": "https://ardahan.eczaneleri.net/ -> HTTP 403 | http://ardahan.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://ardahan.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://ardahan.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Iğdır",
       "sourceUrl": "https://igdir.eczaneleri.net/",
-      "error": "https://igdir.eczaneleri.net/ -> HTTP 403 | http://igdir.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://igdir.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://igdir.eczaneleri.net/ -> HTTP 429"
+      "error": "https://igdir.eczaneleri.net/ -> HTTP 403 | http://igdir.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://igdir.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://igdir.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Yalova",
       "sourceUrl": "https://yalova.eczaneleri.net/",
-      "error": "https://yalova.eczaneleri.net/ -> HTTP 403 | http://yalova.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://yalova.eczaneleri.net/ -> HTTP 429 | https://r.jina.ai/http://r.jina.ai/http://http://yalova.eczaneleri.net/ -> HTTP 429"
+      "error": "https://yalova.eczaneleri.net/ -> HTTP 403 | http://yalova.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://yalova.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://yalova.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Karabük",
       "sourceUrl": "https://karabuk.eczaneleri.net/",
-      "error": "https://karabuk.eczaneleri.net/ -> HTTP 403 | http://karabuk.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://karabuk.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://karabuk.eczaneleri.net/ -> HTTP 429"
+      "error": "https://karabuk.eczaneleri.net/ -> HTTP 403 | http://karabuk.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://karabuk.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://karabuk.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Kilis",
       "sourceUrl": "https://kilis.eczaneleri.net/",
-      "error": "https://kilis.eczaneleri.net/ -> HTTP 403 | http://kilis.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://kilis.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://kilis.eczaneleri.net/ -> HTTP 429"
+      "error": "https://kilis.eczaneleri.net/ -> HTTP 403 | http://kilis.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://kilis.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://kilis.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Osmaniye",
       "sourceUrl": "https://osmaniye.eczaneleri.net/",
-      "error": "https://osmaniye.eczaneleri.net/ -> HTTP 403 | http://osmaniye.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://osmaniye.eczaneleri.net/ -> HTTP 429 | https://r.jina.ai/http://r.jina.ai/http://http://osmaniye.eczaneleri.net/ -> HTTP 429"
+      "error": "https://osmaniye.eczaneleri.net/ -> HTTP 403 | http://osmaniye.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://osmaniye.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://osmaniye.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Düzce",
