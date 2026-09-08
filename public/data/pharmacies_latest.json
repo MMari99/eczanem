@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-07T11:22:35.777Z",
-  "expiresAt": "2026-09-08T13:22:35.777Z",
+  "generatedAt": "2026-09-08T10:26:53.591Z",
+  "expiresAt": "2026-09-09T12:26:53.591Z",
   "source": {
     "duty": "free_public_city_pages_daily_scrape",
     "normal": "public/data/normal_pharmacies_seed.json"
@@ -132,7 +132,7 @@
     {
       "city": "Erzincan",
       "sourceUrl": "https://erzincan.eczaneleri.net/",
-      "error": "https://erzincan.eczaneleri.net/ -> HTTP 403 | http://erzincan.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://erzincan.eczaneleri.net/ -> HTTP 503 | https://r.jina.ai/http://r.jina.ai/http://http://erzincan.eczaneleri.net/ -> No pharmacies parsed"
+      "error": "https://erzincan.eczaneleri.net/ -> HTTP 403 | http://erzincan.eczaneleri.net/ -> HTTP 403 | https://r.jina.ai/http://r.jina.ai/http://https://erzincan.eczaneleri.net/ -> No pharmacies parsed | https://r.jina.ai/http://r.jina.ai/http://http://erzincan.eczaneleri.net/ -> No pharmacies parsed"
     },
     {
       "city": "Erzurum",
