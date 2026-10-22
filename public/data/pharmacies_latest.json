@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-21T11:01:09.920Z",
-  "expiresAt": "2026-10-22T13:01:09.920Z",
+  "generatedAt": "2026-10-22T10:59:35.417Z",
+  "expiresAt": "2026-10-23T12:59:35.417Z",
   "source": {
     "duty": "free_public_city_pages_daily_scrape",
     "normal": "public/data/normal_pharmacies_seed.json"
